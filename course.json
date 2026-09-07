@@ -1,0 +1,219 @@
+{
+  "title": "Quinault",
+  "anchor": "How rain, forest, water, and the Quinault people connect one valley.",
+  "edition": "First encounter",
+  "date": "2026-09-07",
+  "voice": "Microsoft Aria Neural · synthetic preview narration",
+  "sources": {
+    "rain": {
+      "title": "Temperate rain forests · National Park Service",
+      "url": "https://www.nps.gov/olym/learn/nature/temperate-rain-forests.htm"
+    },
+    "area": {
+      "title": "Quinault area · National Park Service",
+      "url": "https://www.nps.gov/olym/planyourvisit/quinault-area-brochure.htm"
+    },
+    "ice": {
+      "title": "Olympic glaciers · National Park Service",
+      "url": "https://www.nps.gov/olym/learn/nature/glaciers.htm"
+    },
+    "lake": {
+      "title": "Lake Quinault management · Quinault Indian Nation",
+      "url": "https://quinaultindiannation.com/224/Lake-Quinault-Management-Plan"
+    },
+    "nation": {
+      "title": "Natural resources · Quinault Indian Nation",
+      "url": "https://quinaultindiannation.com/163/Quinault-Division-of-Natural-Resources-Q"
+    },
+    "repair": {
+      "title": "Habitat management and restoration · Quinault Indian Nation",
+      "url": "https://www.quinaultindiannation.com/189/Habitat-Management-and-Restoration"
+    },
+    "move": {
+      "title": "Taholah relocation background · Quinault Indian Nation",
+      "url": "https://quinaultindiannation.com/247/Project-Background"
+    }
+  },
+  "points": [
+    {
+      "id": "journey/enter-valley",
+      "title": "Enter the valley",
+      "subtitle": "One watershed. Many connected lives.",
+      "originalIds": [
+        "forest/valley-whole",
+        "forest/biome-frame"
+      ],
+      "sources": [
+        "area",
+        "nation"
+      ],
+      "text": "Begin with a journey from mountain to ocean. Water gathers in the Olympic Mountains, travels through the Quinault valley and Lake Quinault, and reaches the Pacific at Taholah. Along that route, forest, river, salmon habitat, and human decisions meet. This is also the homeland of the Quinault people, whose government and work belong in the picture from the beginning. We will follow eight connections through the valley. Each point on the orb is a place to stop and think, not a pin on a geographic map. The spiral gives our journey an order, while the links let you move between related ideas. Start by holding three scales together. At the largest scale, Pacific weather meets a mountain range. At the middle scale, a watershed gathers and carries water. At the close scale, a seedling grows on a fallen log, or a fish uses a sheltered channel. An explanation becomes useful when we can connect those scales without losing the people who live here. A photograph can show the lake and its forested shores, but it cannot, by itself, show who manages the water or what happens upstream. Those questions need their own evidence. As we move through the orb, watch for a recurring connection: what happens in one part of this valley can change the possibilities somewhere else. First, look beyond the trees and follow the rain that helps sustain them.",
+      "audio": "point-01.mp3",
+      "duration": 86.832,
+      "links": {
+        "down": 2,
+        "right": 1,
+        "left": 5,
+        "forward": 7
+      }
+    },
+    {
+      "id": "journey/follow-rain",
+      "title": "Follow the rain",
+      "subtitle": "The Pacific meets a mountain range.",
+      "originalIds": [
+        "forest/rain-engine",
+        "forest/orographic"
+      ],
+      "sources": [
+        "rain"
+      ],
+      "text": "Moist air arriving from the Pacific encounters the Olympic Mountains and rises. As it rises and cools, water condenses, helping produce the wet conditions on the western side of the peninsula. This is the basic process called orographic precipitation. Imagine tracing one parcel of air inland, up a slope, and into cloud. The mountains are part of the explanation for the forest below them. But the phrase rain forest can hide a second question: when does the water arrive? A large annual total does not mean steady rain every day. The archived Quinault reading emphasizes the wet season and the real constraint of drier summer weeks. To understand the forest, think about timing as well as amount. Water can be held in soil, taken up by plants, or carried through streams. Snow at higher elevations stores some precipitation for a later season. These pathways deliver water on different schedules. That distinction helps explain why a valley can be famously wet and still face questions about summer water. Try looking at the diagram as a chain of events rather than a list of objects: air rises, clouds form, precipitation reaches the ground, and water follows several routes onward. The forest is one part of that chain. The land underneath it determines where water can collect and how it travels. To see why the valley has its particular shape, our next stop moves from weather to the much slower work of ice.",
+      "audio": "point-02.mp3",
+      "duration": 93.384,
+      "links": {
+        "up": 0,
+        "right": 2,
+        "left": 3,
+        "forward": 4
+      }
+    },
+    {
+      "id": "journey/land-beneath",
+      "title": "The land beneath",
+      "subtitle": "Ice left a shape that water still follows.",
+      "originalIds": [
+        "making/ice",
+        "making/glacial-carving",
+        "making/lake-formation"
+      ],
+      "sources": [
+        "ice"
+      ],
+      "text": "The forest is young compared with the landforms beneath it. During past cold periods, alpine glaciers moved outward from the Olympic Mountains. Moving ice carried rock, wore against bedrock, and helped carve broad valleys. The National Park Service describes glaciers as powerful sculptors of the Olympic landscape, leaving bowls, peaks, and valleys after the ice retreats. A useful way to picture the process is to compare a stream with a glacier. A stream concentrates much of its erosive work in a channel. A glacier occupies a much larger part of a valley, with rock caught in the ice helping it grind and reshape the ground. This comparison is a teaching diagram, not a reconstruction of one exact Quinault cross section. The archived orb connects the valley and lake to this glacial inheritance. That connection matters because the shape of land continues to organize life long after the force that shaped it has changed. Low places collect water; slopes guide its movement; valley floors provide space for rivers and forests. A basin is therefore more than an interesting feature in a photograph. It changes what kinds of habitat can occur there. Keep separate the ice that shaped the valley in the past and the snow or ice that stores water today. They operate on different timescales. Now return your attention to the living forest. Its structure records another kind of history, built through growth, falling trees, and decay.",
+      "audio": "point-03.mp3",
+      "duration": 94.2,
+      "links": {
+        "up": 0,
+        "right": 1,
+        "forward": 3
+      }
+    },
+    {
+      "id": "journey/living-forest",
+      "title": "A forest grows through decay",
+      "subtitle": "A fallen tree can become a beginning.",
+      "originalIds": [
+        "forest/canopy",
+        "forest/epiphytes",
+        "forest/nurse-logs"
+      ],
+      "sources": [
+        "rain"
+      ],
+      "text": "Look upward through a temperate rain forest and you see more than a roof of leaves. Branches support mosses, ferns, and other plants, while shade and openings create varied conditions below. Then look down. Fallen trunks are part of the living structure of the forest. A nurse log is a fallen tree that provides a place for seedlings to establish. As the wood decays and young roots grow around it, the new trees can preserve a line long after much of the original log has disappeared. The National Park Service describes these rows as colonnades. That image makes a useful connection between something visible now and a process that took place over many years. The old trunk is not simply waste waiting to be removed. It becomes a surface, a store of material, and habitat for other life. Growth and decay overlap rather than taking turns in separate worlds. The same piece of wood can look finished from one perspective and useful from another. Try changing the question you ask of a fallen tree. Instead of asking only why it fell, ask what it makes possible next. That question will return when we reach river restoration, where large wood has a different but related role. For now, notice the movement from tree to ground and from ground toward water. The forest does not stop functioning at the riverbank. Our next point follows that connection into the lake and the salmon story.",
+      "audio": "point-04.mp3",
+      "duration": 89.328,
+      "links": {
+        "up": 0,
+        "left": 1,
+        "right": 4,
+        "forward": 6
+      }
+    },
+    {
+      "id": "journey/connected-water",
+      "title": "Water connects the valley",
+      "subtitle": "The lake is a habitat within a larger route.",
+      "originalIds": [
+        "forest/waters",
+        "forest/lake",
+        "forest/blueback"
+      ],
+      "sources": [
+        "lake"
+      ],
+      "text": "Follow water through the valley and the separate subjects begin to join. Streams feed larger channels, water enters Lake Quinault, and the lower river continues toward the ocean. The lake belongs within that connected system. Quinault blueback sockeye depend on it as important habitat, and the fish connect ecological questions with the cultural and economic life of the Quinault Indian Nation. Avoid turning that relationship into a claim that every sockeye population everywhere has the same requirements. This journey concerns a particular fish and a particular watershed. The Nation's lake management material also explains a fact that a scenic view does not reveal: the Nation owns and manages the lake's waters and bed to the ordinary high water mark. Around the lake, responsibilities involve several jurisdictions. The ecological connections do not stop at those boundaries. Activities on nearby land can affect the water, which is why shoreline vegetation and sources of pollution belong in the same conversation as aquatic habitat. Imagine drawing two transparent layers over the panorama. One shows where water moves. The other shows responsibility for decisions. They would not have identical outlines. Understanding the valley requires learning how those layers interact. This is why the human story is not an extra chapter added after the nature story. People make decisions within the system we have been following all along. At the next point, we will look directly at the Nation as a living government and at the questions its resource work brings into focus.",
+      "audio": "point-05.mp3",
+      "duration": 102.24,
+      "links": {
+        "up": 0,
+        "left": 3,
+        "right": 5,
+        "backward": 1,
+        "forward": 6
+      }
+    },
+    {
+      "id": "journey/living-homeland",
+      "title": "A living homeland",
+      "subtitle": "People and government belong in the present tense.",
+      "originalIds": [
+        "forest/nation",
+        "forest/treaty-frame",
+        "forest/taholah"
+      ],
+      "sources": [
+        "nation"
+      ],
+      "text": "Quinault is a lived place, not only a destination for visitors. The Quinault Indian Nation is a government with responsibilities to its people, lands, waters, and future. Its Division of Natural Resources describes work across fisheries, forestry, environmental protection, and other areas of resource management. These programs bring practical knowledge, scientific work, and community priorities into decisions about the landscape. Reading the Nation's own accounts helps us avoid treating its people as figures confined to a distant past. It also changes the questions we ask. A visitor might ask where to find a beautiful view. A resource manager might ask what habitat is being lost, what information is missing, or what an intervention can achieve. A family may be concerned with safety, work, or the future of a community. None of those questions can be answered by an image of trees alone. The archived orb contains a much longer treaty and fisheries history. This short pilot leaves that legal detail for a separately researched expansion rather than compressing it into a few confident sentences. Here the essential point is that the Nation has an active role in shaping what happens next. When we discuss restoration, we should name the people and institutions doing the work, and look to their explanations of its purpose. The next stop follows one example: efforts led by the Nation to improve habitat in the upper Quinault River. Keep the river, the forest, and that responsibility together as we move.",
+      "audio": "point-06.mp3",
+      "duration": 98.736,
+      "links": {
+        "up": 0,
+        "left": 4,
+        "right": 6,
+        "forward": 7
+      }
+    },
+    {
+      "id": "journey/work-of-repair",
+      "title": "The work of repair",
+      "subtitle": "Put the river’s processes back to work.",
+      "originalIds": [
+        "forest/clearcut-legacy",
+        "forest/restoration-work",
+        "forest/engineered-logjams"
+      ],
+      "sources": [
+        "repair"
+      ],
+      "text": "Large wood can change the way a river moves. It can redirect flow and contribute to pools, sheltered channels, and the varied conditions fish use. The Quinault Indian Nation's habitat program describes an upper river restoration initiative that began in 2006. Its engineered logjams help create and maintain habitat, including side channels and deep pools, while supporting conditions for floodplain forest recovery. These are designed interventions in a moving river, not decorative piles of timber. The useful connection to our forest point is the role of wood across time. A tree can grow beside a channel, later fall, and then help shape the river around it. Where that pattern has been disrupted, restoration tries to help useful processes function again. Think of two clocks. One measures the near-term work of placing structures and watching how water responds. The other measures the much longer growth of a forest capable of contributing large wood. The clocks run together, but they do not run at the same speed. A photograph of completed construction cannot show whether every desired ecological outcome has followed. That requires observation and continuing evaluation. Nor should we promise that one intervention solves all the pressures on salmon. The point is more specific: habitat can be improved by working with the relationships among water, wood, channels, and forest. Our final stop brings these different timescales back together and asks how a community plans for change while caring for the place it inhabits.",
+      "audio": "point-07.mp3",
+      "duration": 100.512,
+      "links": {
+        "up": 7,
+        "left": 5,
+        "right": 4,
+        "backward": 3,
+        "forward": 7
+      }
+    },
+    {
+      "id": "journey/whole-valley",
+      "title": "Return to the whole valley",
+      "subtitle": "A connected place. An unfinished future.",
+      "originalIds": [
+        "becoming/warming",
+        "becoming/taholah-move",
+        "becoming/restore-future"
+      ],
+      "sources": [
+        "move",
+        "ice"
+      ],
+      "text": "Return now to the whole valley, from the mountains to the river mouth. We have followed rain into land shaped by ice, watched a fallen tree become part of a growing forest, and connected lake habitat with the responsibilities of a living government. Change operates across all of those relationships. The National Park Service documents the retreat of Olympic glaciers and explains how snow and ice help store water for summer. At the coast, the Quinault Indian Nation describes Taholah's exposure to tsunami, storm surge, and river flooding, and its plan to relocate the lower village to higher ground. Those are distinct hazards and should not be collapsed into one explanation. This pilot does not claim that the relocation is complete. Its purpose here is to show how planning for a place includes both environmental processes and the continuity of community life. The decisions extend beyond what any single photograph can capture. Think back through the journey using three connections: weather to water, fallen wood to habitat, and knowledge to decisions. Each gives you a route into a much larger subject. You can now revisit any point, print its reading, or copy a prompt to continue exploring in the Orbiverse. The planned memory review will eventually offer another guided route through these ideas. For this first test, the journey ends here. Take a final look at the lake and choose the connection you would most like to understand more deeply.",
+      "audio": "point-08.mp3",
+      "duration": 91.752,
+      "links": {
+        "up": 0,
+        "down": 6,
+        "left": 5,
+        "right": 1,
+        "backward": 6
+      }
+    }
+  ],
+  "totalDuration": 756.984,
+  "targetMinutes": 15
+}

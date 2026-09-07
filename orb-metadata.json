@@ -10,5 +10,12 @@
     45,
     60
   ],
-  "updated": "2026-09-07"
+  "updated": "2026-09-07",
+  "filmStudy": {
+    "title": "A forest grows through decay",
+    "url": "forest-sample.html",
+    "durationSeconds": 68.904,
+    "personalPhotoCount": 2,
+    "narrationReady": true
+  }
 }

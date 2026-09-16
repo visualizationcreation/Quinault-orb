@@ -241,7 +241,14 @@ body[data-orb-reader="the-orb-skill"] .utility-bar a{display:inline-flex;align-i
 }
 @media(prefers-reduced-motion:reduce){body[data-orb-reader] *,body[data-orb-reader] *::before,body[data-orb-reader] *::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
 }
-@media print{.reader-reaches,.reader-point-preview,.reader-library-return,.reader-return-bar,.reader-disclosure{display:none!important}}
+.reader-museum-actions,.reader-contributor{max-width:1440px;margin:0 auto;padding:24px clamp(22px,4vw,64px);border-top:1px solid #b5c9d326;color:#b5c9d5;font:14px/1.6 system-ui,sans-serif}
+.reader-museum-actions{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px 24px;background:#08131d}
+.reader-museum-actions .reader-museum-add{display:inline-flex;align-items:center;min-height:44px;color:#efc9a0;text-decoration:none;font-weight:500}
+.reader-museum-actions .reader-museum-add:hover{text-decoration:underline}
+.reader-museum-actions .reader-museum-add:focus-visible{outline:2px solid #efc9a0;outline-offset:5px;border-radius:3px}
+.reader-museum-actions span{font-size:12px;color:#a0b5c3}
+.reader-contributor strong{font-weight:500;color:#e6d7c5;overflow-wrap:anywhere}
+@media print{.reader-reaches,.reader-point-preview,.reader-library-return,.reader-return-bar,.reader-disclosure,.reader-museum-actions{display:none!important}}
 
 /* ORB reader family adapters, 2026-09-15.
  * Kept separate from the shared shell: historical readers use opposite meanings
@@ -1268,7 +1275,15 @@ mountFace();render();requestAnimationFrame(tick);
     let header=document.querySelector('header .header-inner')||document.querySelector('header');
     if(!header){header=document.createElement('nav');header.className='reader-return-bar';header.setAttribute('aria-label','Library navigation');body.prepend(header);}
     if(header){const existing=[...header.querySelectorAll('a:not(.brand)')].find(a=>/^https:\/\/(?:visualizationcreation\.github\.io|orbiversity\.com)\/orb-archive\/(?:\?.*)?$/.test(a.href));
-      const link=existing||document.createElement('a');link.classList.add('reader-library-return');link.href='https://orbiversity.com/orb-archive/';link.textContent='Orbiversity ↗';link.style.marginTop='0';if(!existing)header.append(link);}
+      const link=existing||document.createElement('a');link.classList.add('reader-library-return');link.href='https://orbiversity.com/orb-archive/';link.textContent='Orb Museum ↗';link.style.marginTop='0';if(!existing)header.append(link);}
+  }
+  // A constant destination keeps private reader data out of URLs and works offline
+  // as a visible entry point. No export or upload happens merely by following it.
+  if(!document.querySelector('.reader-museum-add')){
+    const nav=document.createElement('nav');nav.className='reader-museum-actions';nav.setAttribute('aria-label','Contribute an orb');
+    const link=document.createElement('a');link.className='reader-museum-add';link.href='https://orbiversity.com/orb-archive/submit.html';link.target='_blank';link.rel='noopener';link.textContent='Add your orb to the Museum ↗';
+    const note=document.createElement('span');note.textContent='Sign your orb · Include sources and audio · Reviewed before publication';
+    nav.append(link,note);const reaches=document.querySelector('.reader-reaches');if(reaches)reaches.before(nav);else body.append(nav);
   }
 })();
 
